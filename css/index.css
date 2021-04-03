@@ -1,0 +1,140 @@
+header, section, footer, aside, nav, main, article, figure{
+	display: block;
+}
+/*GLOBAL CSS*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+html{
+	font-size: 16px;
+}
+*{
+	box-sizing: border-box;
+}
+.section-padding{
+	padding: 0 10%;
+}
+/* END GLOBAL CSS */
+/*HEADER CSS*/
+.header{
+	background-color: #23396e;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0;
+}
+.header_logo{
+	color: white;
+	font-size: 2.5rem;
+	text-decoration: none;
+	font-weight: 500;
+	margin-right: 10%;
+}
+.header_nav ul{
+	list-style: none;
+	margin: 0;
+}
+.header_nav ul li{
+	display: inline;
+}
+.header_nav ul li a{
+	color: white;
+	font-size: 0.8rem;
+	text-decoration: none;
+	font-weight: 500;
+	margin: 0 0.7rem;
+}
+.header_nav il li.active a{
+	color: #e30e95;
+}
+/*END HEADER CSS*/
+
+/*CAROUSEL CSS*/
+.carousel{
+	height: 35rem;
+	background: url(../images/bake.jpg) no-repeat center center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.carousel_content{
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+.carousel_content h1{
+	font-size: 3rem;
+	font-weight: 500;
+	word-spacing: 0.4rem;
+	margin-bottom: 0;
+}
+.carousel_conten p{
+	margin-top: 1rem;
+	margin-bottom: 0.8rem;
+	font-size: 1rem;
+	color: rgb(221,221,221);
+}
+.btn_pink{
+	background-color: pink;
+	padding: 0.5rem 1rem;
+	border: 1px solid rgb(221,221,221);
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+	border-radius: 3px;
+}
+
+/*END CAROUSEL CSS*/
+
+/*INTRO CSS*/
+.intro{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.intro_item{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+.intro_item img{
+	max-width: 100%;
+	display: block;
+}
+.intro_item h2{
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.intro_item p{
+	font-size: 0.7rem;
+	padding: 0 2rem;
+	line-height: 1.5rem;
+}
+.intro_tradition{
+	background-color: #5d369c;
+}
+.intro_creativity{
+	background-color: #a8317a;
+}
+.intro_quality{
+	background-color: #a34bcc;
+}
+.intro_cakes{
+	background-color: #518dc9;
+}
+.intro_things{
+	grid-column: 1/span 2;
+	background-color: #a8317a;
+}
+.intro_img-1{
+	grid-column: 2/span 2;
+}
+.intro_img-3
+{
+	background-color: #762aa8;
+}
+.intrro_img-4{
+	grid-column: 3/span 2;
+}
